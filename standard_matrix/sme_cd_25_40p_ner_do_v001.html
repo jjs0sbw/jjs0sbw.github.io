@@ -1,0 +1,49 @@
+<!--
+- Copyright (C) 2012 Joseph Simpson All rights reserved
+-
+- 
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Display ART N2C Graphic</title>
+
+    <style>
+      body {
+         background: #eeeeee;
+        
+      }
+
+      #canvas {
+         background: #ffffff;
+         cursor: pointer;
+         margin-left: 10px;
+         margin-top: 10px;
+         -webkit-box-shadow: 4px 4px 8px rgba(0,0,0,1);
+         -moz-box-shadow: 4px 4px 8px rgba(0,0,0,1);
+         box-shadow: 4px 4px 8px rgba(0,0,0,1);
+      }
+    </style>
+  </head>
+
+   <body>
+   	  <div>
+        <p> Basic Standard Matrix Informtion </p>
+            <ul> Matrix Name:  sme_cd_25_40p_ner_do_v001 </ul>
+            <ul> Matrix Size:  25 </ul>
+            <ul> Number of Zeros (0): 360 </ul>
+            <ul> Number of Ones (1):  240 </ul>
+            <ul> Percent Full:  40.0 </ul>
+            <ul> The column totals are:  [14 10 12  7 13  5 13  7 13  5 10 10  9  8 11  6  9  9 10 10 12  9 11 10  7]   </ul>
+            <ul> The column sum is: 240  </ul>
+            <ul> The row totals are:  [ 5  9  8  6  8 13 16 12  9 11  8 11  9  9 13  8 11  9  6 12 12  9  9  7 10] </ul>
+            <ul> The row sum is: 240 </ul>
+      </div>
+      <canvas id='canvas' width='600' height='600'>
+         Canvas not supported
+      </canvas>
+
+    <script src='sme_cd_25_40p_ner_do_v001.js'></script>
+  </body>
+</html>
