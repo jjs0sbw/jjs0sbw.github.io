@@ -36,7 +36,159 @@
   </section>
 
   <section id="example_1">
-    <iframe name="example_1" style="height:550px;width:750px;"></iframe>
+      p class="p1"><b>Standard Matrix Examples - DRAFT - Version 001<br>
+      </b></p>
+      <p class="p2">Set of Disordered, Central Diagonal Initial Examples<br>
+      </p>
+      <p class="p2">9x9 : 16 by 16 : 25 by 25 : 36 by 36 : 49 by 49 <br>
+      </p>
+      <p class="p3"><br>
+      </p>
+      <p><span><b>Introduction: </b></span>
+      At the most basic level, object grouping can be divided into three types. The 
+      first type of object interface grouping focuses the interfaces along the 
+      matrix diagonal. The second type of object interface grouping focuses the 
+      interfaces in the lower triangular section of the matrix. The third type of 
+      object interface grouping focuses the interfaces in the upper triangular 
+      section of the matrix. These three basic types are the first to be addressed 
+      by the standard matrix example set. </p>
+      
+      <p>Each standard matrix has a size N, establishing an N by N square matrix. 
+      Each standard matrix has a specific number of connections. The “percent-full” 
+      gives an indication of the matrix interface density. “Percent-full” is found 
+      by dividing the number of specific interface realations in the matrix, by the 
+      number of possible relational interface that could exixt. A matrix that is 100 
+      percent full will not respond well to many types of analysis and evaluation. 
+      As described in the working paper, a matrix with a minimum number of interfaces 
+      (N-1) is also expected to perform poorly under many types of analysis and 
+      evaluation. The best results for automated analysis and evaluation are expected 
+      from matrices that have a percent-full rating of around 20 to 40 percent. One 
+      use being made of the set of standard matrix examples is testing of these 
+      expectations. </p>
+      
+      <p>Assuming a matrix that has an object (or named entity) in each cell along the diagonal, the remaining matrix 
+      cells can have an entry in each row or there can be rows in the matrix with no entries. This basic 
+      difference in matrix structure (empty rows or no empty rows) also impacts matrix methods and evaluation 
+      approaches. The first set of standard examples addresses matrices with an object along the diagonal, and rows 
+      that have at least one entry in each row.</p>
+      
+      <p>A naming convention has been developed to clearly identify each type of standard matrix. Each matrix name 
+      has the following components:
+        </p><ul> Standard matrix example, SME </ul> 
+        <ul>Analysis type, for example: grouping-diagonal:CD, grouping-upper-triangular:CU, grouping-lower-triangular:CL</ul>
+        <ul>Matrix size N, for example: 16 </ul>
+        <ul>Interface percent-full, for example: 20 percent, 20P </ul>
+        <ul>Empty rows or no empty rows: no empty rows, NER </ul>
+        <ul>Configuration type, ordered or disordered, for example disordered, DO </ul>
+        <ul>This results in a complete name of SME_CD_16_20P_NER_DO </ul>
+      <p></p>
+      <p>The first set of standard matrix examples will be developed for the following sizes:
+      
+        </p><ul>9x9, 16 x 16, 25 x 25, 36 x 36, 49 x 49, 64 x 64, 81 x 81, 100 x 100, 121 x 121, 144 x 144</ul>
+      <p></p>
+      <p>The minimum interface percent-full is:
+        </p><ul>9 x 9 = 8/72 = 11.1 percent</ul>
+        <ul>16 x 16 = 15/240 = 6.25 percent</ul>
+        <ul>25 x 25 = 24/600 = 4.0 percent</ul>
+        <ul>36 x 36 = 35/1260 = 2.8 percent</ul> 
+        <ul>49 x 49 = 48/2352 = 2.0 percent</ul>
+        <ul>64 x 64 = 63/4032 = 1.6 percent</ul>
+        <ul>81 x 81 = 80/6480 = 1.3 percent</ul> 
+        <ul>100 x 100 = 99/9900 = 1.0 percent</ul> 
+        <ul>121 x 121 = 120/14520 = 0.8 percent</ul> 
+        <ul>144 x 144 = 143/20592 = 0.7 percent</ul>
+      <p></p>	
+      <p>The complete set of standard matrix examples is composed of the following percent-full interface values for each matrix size:
+        </p><ul>5 percent (except for 9 x 9 and 16 x 16 based on the previous “minimum interface full values”)</ul>
+        <ul>10 percent (except for 9 x 9 based on the previous “minimum interface full values”)</ul>
+        <ul>15 percent</ul> 
+        <ul>20 percent</ul>
+        <ul>25 percent</ul>
+        <ul>30 percent</ul> 
+        <ul>35 percent</ul> 
+        <ul>40 percent</ul> 
+        <ul>45 percent</ul> 
+        <ul>50 percent</ul>
+      <p></p>
+      <p>Each size of matrix will have an example for each of the percent-full interface values. The complete 
+      set of standard examples for the described diagonal grouping is then approximately 100 matrix pairs 
+      (one base and one grouped or partitioned), for a total of 200 matrices. In a similar fashion the 
+      upper triangular will have 200 matrices and the lower triangular grouping example sets will have 200 matrices. 
+      This comprises a total of around 600 matrices for the complete basic standard matrix set with no empty rows.
+      </p>
+      <p>When matrices with empty rows are added to the above basic standard set, the expanded standard matrix 
+      set contains 1200 matrices. If the static and time-based matrix representations are addressed, that would 
+      create a standard matrix example set of 2400 matrices.
+      </p>
+      <p>These matrices will be developed, published and discussed in an incremental fashion to encourage the 
+      development, comparison and discussion of common, verifiable matrix clustering algorithms and methods. 
+      The smaller-sized matrices are expected to perform well at all listed percent-full values. The larger 
+      matrices may not perform well at the higher percent-full values; and smaller percent values 
+      may need to be generated.
+      </p>
+      <p></p>
+      
+      <p></p>
+      <p>Standard Matrix Example 9 by 9 - 20 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_20p_ner_do_v001/sme_cd_9_20p_ner_do_v001.html">SME_CD_9_20P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 9 by 9 - 25 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_25p_ner_do_v001/sme_cd_9_25p_ner_do_v001.html">SME_CD_9_25P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 9 by 9 - 30 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_30p_ner_do_v001/sme_cd_9_30p_ner_do_v001.html">SME_CD_9_30P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 9 by 9 - 35 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_35p_ner_do_v001/sme_cd_9_35p_ner_do_v001.html">SME_CD_9_35P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 9 by 9 - 40 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_40p_ner_do_v001/sme_cd_9_40p_ner_do_v001.html">SME_CD_9_40P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 9 by 9 - 45 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_9_45p_ner_do_v001/sme_cd_9_45p_ner_do_v001.html">SME_CD_9_45P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 20 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_20p_ner_do_v001/sme_cd_16_20p_ner_do_v001.html">SME_CD_16_20P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 25 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_25p_ner_do_v001/sme_cd_16_25p_ner_do_v001.html">SME_CD_16_25P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 30 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_30p_ner_do_v001/sme_cd_16_30p_ner_do_v001.html">SME_CD_16_30P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 35 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_35p_ner_do_v001/sme_cd_16_35p_ner_do_v001.html">SME_CD_16_35P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 40 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_40p_ner_do_v001/sme_cd_16_40p_ner_do_v001.html">SME_CD_16_40P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 16 by 16 - 45 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_16_45p_ner_do_v001/sme_cd_16_45p_ner_do_v001.html">SME_CD_16_45P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 20 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_20p_ner_do_v001/sme_cd_25_20p_ner_do_v001.html">SME_CD_25_20P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 25 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_25p_ner_do_v001/sme_cd_25_25p_ner_do_v001.html">SME_CD_25_25P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 30 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_30p_ner_do_v001/sme_cd_25_30p_ner_do_v001.html">SME_CD_25_30P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 35 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_35p_ner_do_v001/sme_cd_25_35p_ner_do_v001.html">SME_CD_25_35P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 40 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_40p_ner_do_v001/sme_cd_25_40p_ner_do_v001.html">SME_CD_25_40P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 25 by 25 - 45 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_25_45p_ner_do_v001/sme_cd_25_45p_ner_do_v001.html">SME_CD_25_45P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 20 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_20p_ner_do_v001/sme_cd_36_20p_ner_do_v001.html">SME_CD_36_20P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 25 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_25p_ner_do_v001/sme_cd_36_25p_ner_do_v001.html">SME_CD_36_25P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 30 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_30p_ner_do_v001/sme_cd_36_30p_ner_do_v001.html">SME_CD_36_30P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 35 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_35p_ner_do_v001/sme_cd_36_35p_ner_do_v001.html">SME_CD_36_35P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 40 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_40p_ner_do_v001/sme_cd_36_40p_ner_do_v001.html">SME_CD_36_40P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 36 by 36 - 45 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_36_45p_ner_do_v001/sme_cd_36_45p_ner_do_v001.html">SME_CD_36_45P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 20 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_20p_ner_do_v001/sme_cd_49_20p_ner_do_v001.html">SME_CD_49_20P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 25 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_25p_ner_do_v001/sme_cd_49_25p_ner_do_v001.html">SME_CD_49_25P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 30 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_30p_ner_do_v001/sme_cd_49_30p_ner_do_v001.html">SME_CD_49_30P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 35 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_35p_ner_do_v001/sme_cd_49_35p_ner_do_v001.html">SME_CD_49_35P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 40 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_40p_ner_do_v001/sme_cd_49_40p_ner_do_v001.html">SME_CD_49_40P_NER_DO</a>
+      </p>
+      <p>Standard Matrix Example 49 by 49 - 45 percent :<a href="https://systemsconcept.org/sc_sme_v001/sme_cd_49_45p_ner_do_v001/sme_cd_49_45p_ner_do_v001.html">SME_CD_49_45P_NER_DO</a>
+      </p>
   </section>
 
 
