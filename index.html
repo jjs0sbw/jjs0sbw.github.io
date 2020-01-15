@@ -12,8 +12,9 @@
     <a href="https://www.youtube.com/user/jjs0sbw" class="w3-button w3-bar-item">Videos</a>
     <a href="https://systemsconcept.org/" class="w3-button w3-bar-item">Web Site</a>
     <a href="./standard_matrix/Standard Matrix Examples.html" target="example_1" class="w3-button w3-bar-item">Examples</a>
-  </nav>
-  <!-- Slide Show -->
+</nav>
+<!-- Total Slide Show -->
+<!-- Images for display-->
 <section>
     <img class="slides_1" src="1_propRel4.png" style="width:750px">
     <img class="slides_1" src="2_EvoCompMethod.png" style="width:750px"> 
@@ -28,6 +29,24 @@
     <img class="slides_1" src="11_TR0001_F_11.png" style="width:750px">
     <img class="slides_1" src="12_TR0002_F_14.png" style="width:750px">
   </section>
+
+  <!-- Links for display-->
+<section>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/303680787_Foundational_Aspects_of_System_Complexity_Reduction_--_A_Tutorial">Link_To_Paper_1</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/268037198_Complexity_Reduction_A_Pragmatic_Semantic_Approach_Empowering_Collaborative_Intelligence">Link_To_Paper_2</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/311984805_Structural_Integration_Modeling_Strengthening_the_Foundations_of_Systems_Science_and_Systems_Engineering_--_Technical_Report_SC_TR_0004">Link_To_Paper_3</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/279205089_Objects_Relations_and_Clusters_for_System_Analysis">Link_To_Paper_4</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/311984805_Structural_Integration_Modeling_Strengthening_the_Foundations_of_Systems_Science_and_Systems_Engineering_--_Technical_Report_SC_TR_0004">Link_To_Paper_5</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/313006165_Technical_Report_SC_TR_0005_The_Enhanced_Reachability_Matrix">Link_To_Paper_6</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/311984805_Structural_Integration_Modeling_Strengthening_the_Foundations_of_Systems_Science_and_Systems_Engineering_--_Technical_Report_SC_TR_0004">Link_To_Paper_7</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/313006165_Technical_Report_SC_TR_0005_The_Enhanced_Reachability_Matrix">Link_To_Paper_8</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/313859387_Technical_Report_SC_TR_0006_-Detailed_Matrix_Analysis_The_Inclusion_Subordination_and_Adjacency_Matrices">Link_To_Paper_9</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/313859387_Technical_Report_SC_TR_0006_-Detailed_Matrix_Analysis_The_Inclusion_Subordination_and_Adjacency_Matrices
+    ">Link_To_Paper_10</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/266138960_Structural_Modeling">Link_To_Paper_11</a></p>
+    <p class="links_1" style="font-weight: bold;"> Click this link to view complete document: ==><a href="https://www.researchgate.net/publication/267333858_C_2013_System_Concepts_LLC_Page_1_of_22_System_Analysis_and_Identification_Objects_Relations_and_Clusters">Link_To_Paper_12</a></p>
+  </section>
+  
   
   <section>
 
@@ -196,20 +215,24 @@
 
 
   <script>
-  // Automatic Slideshow - change image every 3 seconds
+  // Automatic Slideshow - change image every 5 seconds
   var myIndex = 0;
   carousel();
 
   function carousel() {
     var i;
     var x = document.getElementsByClassName("slides_1");
+    var y = document.getElementsByClassName("links_1");
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none";
+      y[i].style.display = "none";
     }
+  
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 4000);
+    y[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000);
   }
 </script>
 
